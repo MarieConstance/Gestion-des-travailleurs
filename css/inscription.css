@@ -1,0 +1,309 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+    background-color: #FCF5E5;
+}
+ .grandediv{
+    /* border: 1px solid black;
+    width: 55%;
+    height: 40rem; */
+    margin-left: 26rem;
+    margin-top: 12rem;
+    display: flex; 
+    
+} 
+.partiblanc{
+text-align: center;
+background-color: white;
+width: 40%;
+border: 1px solid white;
+height: 42rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.blocblanc{
+    display: block;
+}
+
+form{
+    text-align: center;
+}
+.partibleu{
+ width:30%;
+ height: 42rem;
+ text-align: center;
+ background-color: #4792BE;
+ color: white;
+}
+
+.connecter{
+     color: #4792BE;
+     margin-left:7rem ;
+     width: 25rem;
+     margin-top: 4rem;
+     font-size: 2rem;
+     text-align: center;
+     margin-left: 20px;
+}
+.logoconnexion{
+    width: 14rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100Px;
+    margin-top: 50px;
+}
+.entrez{
+    font-size: 1.2rem;
+    font-family: poppins;
+    margin-bottom: 2rem;
+}
+.avez{
+    font-size: 1rem;
+    font-family: poppins;
+}
+.btn{
+width: 13rem;
+height: 3rem;
+border-radius: 30px;
+background-color: #4792BE;
+border: #4792BE;
+box-shadow: 2px 2px 2px 2px rgb(197, 196, 196) ;
+color: white;
+margin-top: 50px;
+}
+.btn:hover{
+    background-color: white;
+    border: 2px solid #4792BE;
+    color: #4792BE;
+}
+.ins{
+width: 13rem;
+height: 3rem;
+border-radius: 30px;
+background-color: #4792BE;
+border: 1px solid white;
+color: white;
+margin-top: 70px;
+}
+.ins:hover{
+    background-color: white;
+    border: 2px solid #4792BE;
+    color: #4792BE;
+    }
+
+.inp{
+width: 20rem;
+height: 2.5rem;
+margin-bottom: 20px;
+background-color:#FCF5E5;
+border: #FCF5E5 1px solid;
+}
+.partibleu h1{
+    margin-top: 140px;
+    font-size: 2.7rem;
+}
+.partibleu h3{
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+
+
+/* Mediaquery */
+
+@media (max-width:2196px){
+    .connecter{
+        font-size: 2rem;
+        color: #4792BE;
+        text-align: center;
+        width: 15rem;
+        margin-top: 2rem;
+        margin-left: 50px;
+       
+    }
+
+    .logoconnexion{
+        width: 10rem;
+        height: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+        margin-right: 3rem;
+    }
+    .logoconnexion img{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media (max-width:1279px){
+    .connecter{
+        font-size: 2rem;
+        color: #4792BE;
+        text-align: center;
+        width: 15rem;
+        margin-top: 2rem;
+        margin-left: 120px;
+       
+    }
+}
+@media (max-width:1400px){
+    .connecter{
+        font-size: 1rem;
+        color: #4792BE;
+        text-align: center;
+        width: 10rem;
+        margin-top: 2rem;
+        margin-right: 10rem;
+    }
+
+    .logoconnexion{
+        width: 12rem;
+        height: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+
+    .entrez{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+}
+@media (max-width:1250px){
+    .partibleu h1{
+        margin-top: 140px;
+        font-size: 2rem;
+    }
+    .partibleu h3{
+        font-size: 16px;
+       
+    }
+    .logoconnexion{
+        width: 10rem;
+        height: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 120Px;
+    }
+    .logoconnexion img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .inp{
+        width: 15rem;
+        height: 2.5rem;
+        margin-bottom: 20px;
+        background-color:#FCF5E5;
+        border: #FCF5E5 1px solid;
+        }
+        .avez{
+            font-size: 0.6rem;
+        }
+
+        .btn{
+            width: 10rem;
+            height: 2rem;
+            border-radius: 30px;
+            background-color: #4792BE;
+            border: #4792BE;
+            box-shadow: 2px 2px 2px 2px rgb(197, 196, 196) ;
+            color: white;
+            }
+        .ins{
+            width: 10rem;
+            height: 2rem;
+            border-radius: 30px;
+            background-color: #4792BE;
+            border: 1px solid white;
+            color: white;
+            margin-top: 70px;
+                }
+}
+@media (max-width:1083px){
+    .partibleu h1{
+        margin-top: 140px;
+        font-size: 1.8rem;
+    }
+    .partibleu h3{
+        font-size: 12px;
+        margin-top: 60px;
+    }
+    .ins{
+        width: 10rem;
+        height: 2rem;
+        border-radius: 30px;
+        background-color: #4792BE;
+        border: 1px solid white;
+        color: white;
+        margin-top: 70px;
+        }
+}
+@media (max-width:1070px){
+    .partibleu h1{
+        margin-top: 130px;
+        font-size: 2rem;
+    }
+    .partibleu h3{
+        font-size: 12px;
+        margin-top: 60px;
+    }
+    .ins{
+        width: 8rem;
+        height: 2rem;
+        border-radius: 30px;
+        background-color: #4792BE;
+        border: 1px solid white;
+        color: white;
+        margin-top: 50px;
+        }
+
+
+        .logoconnexion{
+            width: 8rem;
+            height: 1rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+            margin-left: 120Px;
+        }
+        .logoconnexion img{
+            width: 1rem;
+            height: 1rem;
+        }
+    
+        .inp{
+            width: 10rem;
+            height: 2rem;
+            margin-bottom: 20px;
+            background-color:#FCF5E5;
+            border: #FCF5E5 1px solid;
+            }
+            .entrez{
+                font-size: 0.6rem;
+                text-align: center;
+            }
+            .avez{
+                font-size: 0.6rem;
+            }
+    
+            .btn{
+                width: 10rem;
+                height: 2rem;
+                border-radius: 30px;
+                background-color: #4792BE;
+                border: #4792BE;
+                box-shadow: 2px 2px 2px 2px rgb(197, 196, 196) ;
+                color: white;
+                }
+}
