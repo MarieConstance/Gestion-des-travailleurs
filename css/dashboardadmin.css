@@ -141,14 +141,12 @@ table {
     width: 80rem;
     border-radius: 50px;
 }
-td {
-    padding: 10px;
-    text-align: center;
-   
-}
+ 
   td {
     background-color:#FCF5E5;
     font-size: 1.4rem;
+    padding: 10px;
+    text-align: center;
 }
 
   .td, img{ 
@@ -157,7 +155,7 @@ td {
     border-radius: 30px;  
 }     
   tr{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     background-color: #FCF5E5;
 }
 .iconmod{

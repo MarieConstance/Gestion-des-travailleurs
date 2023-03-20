@@ -61,75 +61,35 @@ margin-top: 14px;
 .grandblocblanc{
     display: block;
 }
+
+
+.header{
+    width: 80rem;
+    height: 5rem;
+    color: #dabc76;
+    border: 1px solid black;
+    position: absolute;
+}
 .grandblocblanc input{
     width: 28rem;
     height: 3rem;
     border-radius: 15px;
-    background-color: #c8e2ec;
-    border: 1px solid black;
-    margin-top: 4rem;
-    margin-left: 40rem;
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 2rem;
+   
 }
 
 .grandblocblanc .recherche{
-    width: 2.2rem;
-    height: 2.2rem;
-    margin-left: -3rem;
-    margin-top: 1rem;
-    
-   
+
+  
 }
 .grandblocblanc .notification{
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 15rem;
-    margin-top: 2rem;
+    
 }
 .grandblocblanc .paramètre{
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 2rem;
-}
-
-.listadmin{
-    margin-top: 2rem;
-    margin-left:2rem ;
-}
-
-.contenairtable{
-    display: flex;
-}
-
-table { 
-    margin-top: 4rem; 
-    margin-left: 2rem;
-    width: 80rem;
-    border-radius: 50px;
-}
-td {
-    padding: 10px;
-    text-align: center;
    
 }
-  td {
-    background-color:#FCF5E5;
-    font-size: 1.4rem;
-}
 
-  .td, img{ 
-    width: 4rem;
-    height: 4rem;
-    border-radius: 30px;  
-}     
-  tr{
-    margin-bottom: 1rem;
-    background-color: #FCF5E5;
-}
-.iconmod{
-    width: 2rem;
-    height: 2rem;
-}
-.iconsup{
-    width: 2rem;
-    height: 2rem;
-}
+
