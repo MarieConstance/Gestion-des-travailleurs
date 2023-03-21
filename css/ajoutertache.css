@@ -245,7 +245,6 @@ form{
 @media (max-width:1760px){
     .grandblocblanc{
         width: 100%;
-        display: block;
     } 
     .Logo{
         justify-content: center;
@@ -318,6 +317,12 @@ form{
         }
     }
 @media (max-width:1401px){
+    .blocmenu img{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 4px;
+        margin-left: 1rem;
+        }
     .grandblocblanc{
         width: 100%;
     } 
@@ -347,6 +352,13 @@ form{
 
 }
 @media (max-width:1374px){
+
+    .blocmenu img{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 4px;
+        margin-left: 1rem;
+        }
     .grandblocblanc{
         width: 100%;
     } 
@@ -381,7 +393,7 @@ form{
     .Logo img{
         width: 6rem;
         height: 6rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
      }
      .blocmenu div:hover{
         width: 10rem;
@@ -389,6 +401,15 @@ form{
     .cardreblanc{
         width: 10rem;
      }
+     .blocmenu img{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 4px;
+        margin-left: 1rem;
+        }
+     .blocmenu div h2{
+        font-size: 0.8rem;
+    }
     .tabform{
         width: 60rem;   
     }
@@ -450,6 +471,12 @@ form{
 }
 
 @media (max-width:1140px){
+    .blocmenu img{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 4px;
+        margin-left: 1rem;
+        }
     .grandblocblanc{
         width: 100%;
     } 
@@ -472,7 +499,8 @@ form{
     .blocmenu img{
         width: 1.5rem;
         height: 1.5rem;
-        margin-top: 4px;
+        margin-top: 3px;
+        margin-left: 1rem;
     }
     .blocmenu div{
         margin-top: 3rem;
@@ -480,10 +508,10 @@ form{
         margin-right: 2rem;
     }
     .blocmenu div:hover{
-        width: 16rem;
+        width: 10rem;
     }
     .blocmenu div h2{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
             
     .cardreblanc{
@@ -491,4 +519,139 @@ form{
      }
 }
 
+@media (max-width:1120px){
+    .grandblocblanc{
+        width: 100%;
+    } 
+    .header{
+        width: 100%;
+    }
+    .tabform{
+        width: 55rem; 
+        justify-content: space-around;  
+    }
+    form{
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .inp1{
+        width: 50rem;
+        margin-top: 3rem;
+       
+    }
+    .inp1 input{
+        width: 15rem;
+        height: 2.5rem;
+       
+    }
+    .inp2{
+        width: 50rem;
+        margin-top: 2rem;
+    }
+    .inp2 input{
+        width: 15rem;
+        height: 2.5rem;
+    }
+
+}
+@media (max-width:1105px){
+    .grandblocblanc{
+        width: 74rem;
+    } 
+    .header{
+        width: 100%;
+    }
+    .tabform{
+        width: 55rem; 
+        justify-content: space-around;  
+    }
+    form{
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .inp1{
+        width: 50rem;
+        margin-top: 3rem;
+       
+    }
+    .inp1 input{
+        width: 15rem;
+        height: 2.5rem;
+       
+    }
+    .inp2{
+        width: 50rem;
+        margin-top: 2rem;
+    }
+    .inp2 input{
+        width: 15rem;
+        height: 2.5rem;
+    }
+    .entetetab{
+        width: 70rem;
+        }
+    .lignetab{
+        width: 70rem;
+        }
+
+}
+@media (max-width:1050px){
+    .blocmenu div{
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
+    .blocmenu div:hover{
+        width: 8rem;
+    }
+    .blocmenu div h2{
+        font-size: 0.7rem;
+    }
+    .blocmenu img{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 6px;
+        }
+            
+    .cardreblanc{
+        width: 8rem;
+     }
+
+     .blocmenu{
+        margin-left:2rem ;
+        margin-top: 7rem;
+    }
+
+}
+
+@media (max-width:360px){
+    .grandblocblanc{
+        width: 100%;
+    } 
+    .grandblocblanc .notification{
+        margin-left: 10rem;
+    }
     
+    .entetetab{
+        width: 60rem;
+        margin-left: 3rem;
+        }
+    .lignetab{
+        margin-top: 1rem;
+        width: 60rem;
+        height: 3.5rem;
+        margin-left: 3rem;
+    }
+    .lignetab,p{
+        font-size: 2px;
+    }
+}
+
+
+
+
+
+

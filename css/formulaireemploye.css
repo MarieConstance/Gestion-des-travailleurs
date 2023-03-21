@@ -1,0 +1,12 @@
+body{
+    background-color: #FCF5E5;
+}
+.card{
+    width: 45rem;
+    height: 35rem;
+    margin-left: 40rem;
+    margin-top: 15rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 1px 1px gray;
+}

@@ -6,7 +6,7 @@ body{
     display: flex;
 }
 .menu{
-    width: 30rem;
+    width: 20%;
     height: 100vh;
     background-color: #4792BE;
     
@@ -14,7 +14,9 @@ body{
 /*--------------------------logo--------------------------*/
 
 .Logo{
-    margin-left: 9rem;  
+    justify-content: center;
+    display: flex; 
+    align-items: center;
 }
 .Logo img{
 
@@ -28,12 +30,12 @@ body{
 .blocmenu{
 margin-left:6rem ;
 color: white;
-margin-top: 10rem;
+margin-top: 6rem;
 }
 .blocmenu img{
-width: 3rem;
-height: 3rem;
-margin-top: 14px;
+width: 2.8rem;
+height: 2.8rem;
+margin-top: 15px;
 }
 .blocmenu div{
     margin-top: 3rem;
@@ -48,7 +50,7 @@ margin-top: 14px;
     width: 18rem;
 }
 .blocmenu div h2{
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 .cardreblanc{
     border: 1px solid black;
@@ -59,42 +61,46 @@ margin-top: 14px;
 }
 
 /*--------------------------partie blanche-----------------------------*/
+.grandblocblanc{
+width: 100% ;
+}
 .grandblocblanc input{
     width: 28rem;
     height: 3rem;
     border-radius: 15px;
     background-color: #c8e2ec;
     border: 1px solid black;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: 40rem;
+    position: relative;
 }
 
 .grandblocblanc .recherche{
     width: 2.2rem;
     height: 2.2rem;
     margin-left: -3rem;
-    margin-top: 1rem;
-    
+    margin-top: 3.5rem;
+    position: absolute;
    
 }
 .grandblocblanc .notification{
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 15rem;
+    margin-left: 18rem;
     margin-top: 2rem;
 }
 .grandblocblanc .paramètre{
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 .admin{
 display: flex;
 margin-left: 3rem;
 }
 .admin img{
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 60px;
 }
 .ecriture{
@@ -114,7 +120,7 @@ margin-left: 3rem;
 .contenairevert div{
    
     width: 22rem;
-    height: 14rem;
+    height: 15rem;
     background-color: #328454;
     color: white;
     border-radius: 20px;
@@ -128,48 +134,38 @@ margin-left: 3rem;
 
 
 .listadmin{
-    margin-top: 40px;
+    margin-top: 4rem;
     margin-left:2rem ;
 }
-
-.contenairtable{
+.deuxcontenu{
     display: flex;
 }
 
-table {
-    
-    border-radius: 10px; 
-    margin-top: 4rem; 
-    margin-left: 2rem;
-    width: 60rem;
-}
-  th, td {
-    padding: 10px;
-    text-align: center;
-}
-  td {
-    background-color:#FCF5E5;
-    font-size: 1.4rem;
-}
-
-  .td, img{ 
-    width: 4rem;
-    height: 4rem;
-    border-radius: 30px;  
-}     
-  tr{
-    margin-bottom: 1rem;
+.lignetab{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    width: 80rem;
+    height: 3.7rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
     background-color: #FCF5E5;
+}
+.lignetab img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin-top: -0.5rem;
 }
 .listebouton{
     display: block;  
-    margin-top: 15rem; 
-    margin-left: 3rem;
+    margin-top: 5rem; 
+    margin-left: 2rem;
 }
-.listebout button{
+.listebouton button{
     display: block;
-    margin-left: 1rem;
-    margin-bottom: 5rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
 }
 .boutonvert{
     width: 8rem;

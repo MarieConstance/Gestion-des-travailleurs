@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.deuxblocs{
+    display: flex;
+}
+.menu{
+    width: 20%;
+    height: 100vh;
+    background-color: #4792BE;
+    
+}
+/*--------------------------logo--------------------------*/
+
+.Logo{
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+}
+.Logo img{
+
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+/*--------------------------bloc menu----------------------*/
+
+.blocmenu{
+margin-left:3rem ;
+color: white;
+margin-top: 8rem;
+}
+.blocmenu img{
+width: 2rem;
+height: 2rem;
+margin-top: 10px;
+}
+.blocmenu div{
+    margin-top: 3rem;
+    display: flex;
+    margin-right: 2rem;
+}
+.blocmenu div:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: 17rem;
+}
+.blocmenu div h2{
+    margin-left: 1.5rem;
+}
+.cardreblanc{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: 17rem;
+}
+/*--------------------------partie blanche-----------------------------*/
+.grandblocblanc{
+    width: 80%;
+    display: block;
+}
+
+/*-----------------------------header----------------------------------*/
+.header{
+    width: 100%;
+    height: 6rem;
+    background-color: #f9ecce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barrederecherche{
+    width: 40rem;  
+    position: relative;
+}
+.header input{
+    width: 28rem;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 5rem;
+    box-shadow: 2px 2px 1px 1px gray;
+   
+}
+.grandblocblanc .recherche{
+    width: 2rem;
+    height: 2rem;
+    padding-left: 7rem;
+    position: absolute;
+    margin-top: 0.7rem;
+   
+}
+.grandblocblanc .notification{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 38rem;
+}
+.grandblocblanc .paramètre{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 4rem;
+}
+/*----------------------------formulaire de paiement-------------------------------*/
+.veillez{
+    margin-left: 25rem;
+}
+.tabform{
+    display: flex;
+    width: 70rem;
+    height: 21rem;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 14rem;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 2rem;
+}
+
+form{
+    align-items: center;
+    text-align: center;
+    
+}
+.inp1{
+    width: 60rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.inp1 input{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #FCF5E5;
+    border: 1px solid #FCF5E5;
+    border-radius: 1rem;
+   
+}
+.inp2{
+    width: 60rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.inp2 input{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #FCF5E5;
+    border: 1px solid #FCF5E5;
+    border-radius: 1rem;
+}
+.inp3{
+    width: 60rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.inp3 input{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #FCF5E5;
+    border: 1px solid #FCF5E5;
+    border-radius: 1rem;
+}
+
+.btnvert{
+    width: 16rem;
+    height: 3rem;
+    margin-top: 3rem;
+    background-color: #549D64;
+    border: 1px solid #549D64 ;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px  gray;
+    margin-left: 40rem;
+}
+.btnvert:hover{
+    background-color: white;
+    color: #549D64;
+}
+
+table { 
+    margin-top: 4rem; 
+    margin-left: 3rem;
+    width: 95rem;
+    border-radius: 50px;
+}
+ 
+  td {
+    background-color:#FCF5E5;
+    font-size: 1.4rem;
+    padding: 10px;
+    text-align: center;
+}
+
+  .td, img{ 
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30px;  
+}     
+  tr{
+    margin-bottom: 3rem;
+    background-color: #FCF5E5;
+    height: 5rem;
+}
+.iconmod{
+    width: 2rem;
+    height: 2rem;
+}
+.iconsup{
+    width: 2rem;
+    height: 2rem;
+}
