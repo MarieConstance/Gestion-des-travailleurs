@@ -3,15 +3,16 @@ body{
     margin: 0px;
     font-family: 'Poppins';
     background-color: #FCF5E5;
+    background-image: url("images/Logo.png");
 }
   .formu{
     display: flex;
     width: 50rem;
-    height: 35rem;
+    height: 32rem;
     gap: 15px;
     flex-direction: column;
     background-color: white;
-    margin-top: 10rem;
+    margin-top: 12rem;
     margin-left: 38rem;
     border-radius: 20px;
     padding: 30px 20px;
@@ -77,7 +78,7 @@ body{
   }
   
   button {
-    margin-top: 20px;
+    margin-top: 25px;
     background-color: #549D64;
     color: #fff;
     text-transform: uppercase;
