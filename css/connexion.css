@@ -16,6 +16,15 @@ body{
 .blocblanc{
 display: block;
 }
+.para{
+font-size: 2rem;
+margin-top: -9rem;
+margin-left: -7rem;
+}
+.lien{
+  text-decoration: none;
+color: gray;
+}
 
 .partiblanc{
 display: flex;
@@ -119,6 +128,30 @@ border: #FCF5E5 1px solid;
 
 
 /* Mediaquery */
+@media (max-width:1480px){
+    .para{
+        font-size: 1.5rem;
+        margin-top: -9rem;
+        margin-left: -0.1rem;
+        }
+    .lien{
+          text-decoration: none;
+        color: gray;
+        }
+
+}
+@media (max-width:1430px){
+    .para{
+        font-size: 1.5rem;
+        margin-top: -9rem;
+        margin-left: -0.01rem;
+        }
+    .lien{
+          text-decoration: none;
+        color: gray;
+        }
+
+}
 
 @media (max-width:1400px){
     .connecter{
@@ -143,6 +176,16 @@ border: #FCF5E5 1px solid;
         font-size: 0.8rem;
         text-align: center;
     }
+    .para{
+        font-size: 1.5rem;
+        margin-top: -12rem;
+        margin-left: -0.0rem;
+        }
+
+    .lien{
+        text-decoration: none;
+        color: gray;
+        }
     
 }
 @media (max-width:1250px){
@@ -181,6 +224,15 @@ border: #FCF5E5 1px solid;
             box-shadow: 2px 2px 2px 2px rgb(197, 196, 196) ;
             color: white;
             }
+            .para{
+                font-size: 2rem;
+                margin-top: -9rem;
+                margin-left: -5rem;
+                }
+                .lien{
+                  text-decoration: none;
+                color: gray;
+                }
 }
 @media (max-width:1070px){
     .partibleu h1{
@@ -240,4 +292,14 @@ border: #FCF5E5 1px solid;
                 box-shadow: 2px 2px 2px 2px rgb(197, 196, 196) ;
                 color: white;
                 }
+
+                .para{
+                    font-size: 2rem;
+                    margin-top: -9rem;
+                    margin-left: -5rem;
+                    }
+                    .lien{
+                    text-decoration: none;
+                    color: gray;
+                    }
 }

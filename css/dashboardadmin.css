@@ -6,8 +6,7 @@ body{
     display: flex;
 }
 .menu{
-    width: 30rem;
-    height: 100vh;
+    width: 20%rem;
     background-color: #4792BE;
     
 }
@@ -18,8 +17,8 @@ body{
 }
 .Logo img{
 
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     margin-top: 3rem;
 }
@@ -31,8 +30,8 @@ color: white;
 margin-top: 10rem;
 }
 .blocmenu img{
-width: 3rem;
-height: 3rem;
+width: 2rem;
+height: 2rem;
 margin-top: 14px;
 }
 .blocmenu div{
@@ -73,7 +72,7 @@ margin-top: 14px;
     width: 2.2rem;
     height: 2.2rem;
     margin-left: -3rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     
    
 }
@@ -93,8 +92,8 @@ display: flex;
 margin-left: 3rem;
 }
 .admin img{
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 60px;
 }
 .ecriture{
@@ -114,16 +113,19 @@ margin-left: 3rem;
 .contenairevert div{
    
     width: 22rem;
-    height: 14rem;
+    height: 13rem;
     background-color: #328454;
     color: white;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 3px 3px 3px 3px #dfc778;
+}
+.contenairevert div:hover{
+    transform: scale(1.1);
 }
 .contenairevert div img{
     width: 5rem;
     height: 5rem;
-    border-radius: 5rem;
 }
 
 .listadmin{
@@ -137,8 +139,8 @@ margin-left: 3rem;
 
 table { 
     margin-top: 4rem; 
-    margin-left: 2rem;
-    width: 80rem;
+    margin-left: 3rem;
+    width: 90rem;
     border-radius: 50px;
 }
  
@@ -158,7 +160,7 @@ table {
     margin-bottom: 3rem;
     background-color: #FCF5E5;
 }
-.iconmod{
+.button{
     width: 2rem;
     height: 2rem;
 }

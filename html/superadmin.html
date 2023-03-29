@@ -9,21 +9,21 @@
     <div class="deuxblocs">
       <div class="menu">
         <div class="Logo">
-          <img src="../images/Logo.png" alt="" >  
+          <a href="../index.html"><img src="../images/Logo.png" alt="" ></a>  
         </div>
         <div class="blocmenu">
-          <div class="cardreblanc"><img src="../icons/home.png" alt=""><h2 >Tableau de bord</h2> </div>
-          <div><img src="../icons/ajoutertravailleur.png" alt=""><h2>Ajouter travailleurs</h2> </div>
-          <div><img src="../icons/ajoutertaches.png" alt=""><h2>Ajouter tâches</h2> </div>
-          <div><img src="../icons/bilan.png" alt=""><h2>Bilan</h2> </div>
-          <div><img src="../icons/paiement.png" alt=""><h2>Paiement</h2></div>
+          <div class="cardreblanc" id="enligne"><a href="#superadmin"><img src="../icons/home.png" alt=""></a><h2 >Tableau de bord</h2> </div>
+          <div><a href="./formulaireemploye.html" id="enligne"><img src="../icons/ajoutertravailleur.png" alt=""></a><h2>Ajouter travailleurs</h2> </div>
+          <div><a href="./ajoutertache.html"  id="enligne"><img src="../icons/ajoutertaches.png" alt=""></a><h2>Ajouter tâches</h2> </div>
+          <div><a href="./paiement.html" id="enligne"><img src="../icons/paiement.png" alt=""></a><h2>Paiement</h2></div>
+          <div><a href="./bilan.html" id="enligne"><img src="../icons/bilan.png" alt=""></a> <h2>Bilan</h2></div>
         </div>
     </div>
     <div class="grandblocblanc">
       <header>
         <input type="text"><img src="../icons/chercher.png" class="recherche">
-        <img src="../icons/notification.png" class="notification">
-        <img src="../icons/param.png" class="paramètre">
+        <a href="./notification.html"><img src="../icons/notification.png" class="notification"></a>
+        <a href="./parametre.html"><img src="../icons/param.png" class="paramètre"></a>
       </header>
 
       <div class="admin">
@@ -36,32 +36,46 @@
       </div>
 
       <div class="contenairevert">
-        <div>
-          <img src="../images/homme.jpg">
-          <p>Konan Christian</p>
-          <h3>Défricher les herbes</h3>
-          <p>80%</p> 
-          <progress></progress>
+        <div class="employe">
+          <img src="../icons/workers-svg.png" alt="">
+          <h2>Nombre d'Employer</h2>
+          <h1></h1>
+          
         </div>
-        <div>
-          <img src="../images/hommenoir.jpeg" >
-          <p>Yao Fernand</p>
-          <h3>Semer le riz</h3>
-          <p>90%</p> 
-          <progress></progress>
+        <div class="administrateur">
+          <img src="../icons/worker-computer.png" >
+          <h2>Nombre d'Administrateur</h2>
+          <h1></h1>
+         
         </div> 
-        <div>
-          <img src="../images/Alicia.jpg" alt="">
-          <p>yah Marilore</p>
-          <h3>Recolter les vivriers</h3>
-          <p>100%</p> 
-          <progress></progress>
+        <div class="tache">
+          <img src="../icons/checklist.png" alt="">
+          <h2>Nombre de Tâches</h2>
+          <h1></h1>
+         
         </div>
 
       </div>
       <h2 class="listadmin">Liste des Admins</h2>
+      <table class="tablo">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nom</th>
+            <th>Tâches</th>
+            <th>Contact</th>
+            <th>Adresse Email</th>
+            <th colspan="2">Action</th>
 
-       <div class="deuxcontenu">
+
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+
+
+       <!-- <div class="deuxcontenu">
 
           <div class="tableau">
             <div class="lignetab">
@@ -89,13 +103,6 @@
            </div>
 
            <div class="lignetab">
-              <p><img src="../images/hommenoir.jpeg" alt=""></p>
-              <p>Kassi Franck Joseph lio</p>
-              <p>Superviser l’équipe 4</p>
-              <p>01 02 03 04 05/ 07 06 05 04 03</p>
-              <p>kassifranckjosephlionelyahoo.fr</p>
-           </div>
-           <div class="lignetab">
             <p><img src="../images/hommenoir.jpeg" alt=""></p>
             <p>Soro Noura Tueslabelle</p>
             <p>Superviser l’équipe 5</p>
@@ -110,13 +117,13 @@
             <button class="boutonjaune">modifier</button>
             <button class="boutonrouge">supprimer</button>
           </div>
-      </div>
+      </div> -->
       
      
 
     </div>
     
   
-    <footer></footer>
+    <script src="../javascript/superadmin.js"></script>
   </body>
   </html>      

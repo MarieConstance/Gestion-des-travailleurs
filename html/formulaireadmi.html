@@ -9,26 +9,27 @@
 
 
   <form class="formu">
+    <h3><a href="javascript:history.go(-1)" class="Retour">Retour</a></h3>  
     <span class="title">Formulaire d'ajout de nouvel Administrateur</span>
     
-   <input id="file" type="file">
-    <label class="avatar" for="file"><span><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="white" d="m14.12 4l1.83 2H20v12H4V6h4.05l1.83-2h4.24M15 2H9L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2zm-3 7c1.65 0 3 1.35 3 3s-1.35 3-3 3s-3-1.35-3-3s1.35-3 3-3m0-2c-2.76 0-5 2.24-5 5s2.24 5 5 5s5-2.24 5-5s-2.24-5-5-5z"/></svg></span><iconify-icon icon="ic:outline-photo-camera" style="color: white;"></iconify-icon></label>
-      <input type="text" class="input" placeholder="Nom Administrateur">
-      <select name="" id="">
-        <option value="tache">Définir le Rôle de l'administrateur</option>
-        <option value="tache">Superviser l’équipe 1</option>
-        <option value="tache">Superviser l’équipe 2</option>
-        <option value="tache">Superviser l’équipe 3</option>
-        <option value="tache">Superviser l’équipe 4</option>
-        <option value="tache">Superviser l’équipe 5</option>
-       </select>
-      <input type="tel" class="input" placeholder="Contact"> 
-      <input type="email" class="input" placeholder="Adresse Email"> 
-    
-      <button>Ajouter</button>
+        <input type="text" class="input" placeholder="Nom Administrateur" id="nom">
+        <select name="" id="selection">
+          <option value="tache">Définir le Rôle de l'administrateur</option>
+          <option value="tache">Superviser l’équipe 1</option>
+          <option value="tache">Superviser l’équipe 2</option>
+          <option value="tache">Superviser l’équipe 3</option>
+          <option value="tache">Superviser l’équipe 4</option>
+          <option value="tache">Superviser l’équipe 5</option>
+         </select>
+        <input type="tel" class="input" placeholder="Contact" id="contact"> 
+        <input type="email" class="input" placeholder="Adresse Email" id="email"> 
+      
+        <button class="btnconnexion">Ajouter</button>
+     
+     
   </form>
   
    
-
+<script src="../javascript/formulaireadmin.js"></script>
 </body>
 </html>      

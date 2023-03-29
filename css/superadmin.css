@@ -20,23 +20,28 @@ body{
 }
 .Logo img{
 
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     margin-top: 3rem;
 }
 /*--------------------------bloc menu----------------------*/
 
 .blocmenu{
-margin-left:6rem ;
-color: white;
-margin-top: 6rem;
+    margin-left:6rem ;
+    color: white;
+    margin-top: 6rem;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
 }
 .blocmenu img{
-width: 2.8rem;
-height: 2.8rem;
-margin-top: 15px;
-}
+    width: 2rem;
+    height: 2rem;
+    margin-top: 10px;
+    }
 .blocmenu div{
     margin-top: 3rem;
     display: flex;
@@ -47,7 +52,7 @@ margin-top: 15px;
     background-color: white;
     color: black;
     border-radius: 30px;
-    width: 18rem;
+    width: 16rem;
 }
 .blocmenu div h2{
     margin-left: 1rem;
@@ -57,7 +62,7 @@ margin-top: 15px;
     background-color: white;
     color: black;
     border-radius: 30px;
-    width: 18rem;
+    width: 16rem;
 }
 
 /*--------------------------partie blanche-----------------------------*/
@@ -120,16 +125,19 @@ margin-left: 3rem;
 .contenairevert div{
    
     width: 22rem;
-    height: 15rem;
+    height: 13rem;
     background-color: #328454;
     color: white;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 3px 3px 3px 3px #dfc778;
+}
+.contenairevert div:hover{
+    transform: scale(1.1);
 }
 .contenairevert div img{
     width: 5rem;
     height: 5rem;
-    border-radius: 5rem;
 }
 
 
@@ -214,5 +222,36 @@ margin-left: 3rem;
     background-color: white;
     border: 1px solid #B73224;
     color:#B73224;
+}
+table { 
+    margin-top: 4rem; 
+    margin-left: 3rem;
+    width: 90rem;
+    border-radius: 50px;
+}
+ 
+  td {
+    background-color:#FCF5E5;
+    font-size: 1.4rem;
+    padding: 10px;
+    text-align: center;
+}
+
+  .td, img{ 
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30px;  
+}     
+  tr{
+    margin-bottom: 3rem;
+    background-color: #FCF5E5;
+}
+.iconmod{
+    width: 2rem;
+    height: 2rem;
+}
+.iconsup{
+    width: 2rem;
+    height: 2rem;
 }
   

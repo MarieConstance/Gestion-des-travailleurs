@@ -2,9 +2,11 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: 'Poppins';
-    background-color: #FCF5E5;
-    background-image: url("images/Logo.png");
+    background: url(../images/terre.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
   .formu{
     display: flex;
     width: 50rem;
@@ -18,6 +20,13 @@ body{
     padding: 30px 20px;
     align-items: center;
     
+  }
+  .Retour{
+    margin-right: 46rem;
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    font-size:1rem ;
   }
   
   .title {
@@ -63,10 +72,12 @@ body{
     outline: none;
     width: 30rem;
     padding: 16px 10px;
+    margin-top: 1rem;
     background-color:#FCF5E5;
     border-radius: 10px;
     box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.015),100px 100px 80px rgba(0, 0, 0, 0.03);
   }
+
   select{
     border: none;
     outline: none;
