@@ -41,34 +41,34 @@
 
 // -------------connexion administrateur------------------
 
-boutonconnexion.addEventListener('click', (e)=>{
-    e.preventDefault()
+// boutonconnexion.addEventListener('click', (e)=>{
+//     e.preventDefault()
 
-    let nomutilisateur = document.getElementById('email').value
-    let motdepasse = document.getElementById('mdp').value
+//     let nomutilisateur = document.getElementById('email').value
+//     let motdepasse = document.getElementById('mdp').value
 
-    let recupAdmin = localStorage.getItem("Administrateur");
-    recupAdmin = JSON.parse(recupAdmin);
-    console.log(recupAdmin);
+//     let recupAdmin = localStorage.getItem("Administrateur");
+//     recupAdmin = JSON.parse(recupAdmin);
+//     console.log(recupAdmin);
 
-    if (recupAdmin != null) {
-        if (nomutilisateur === recupAdmin.user) {
-            if (motdepasse === recupAdmin.pwd) {
-                let session = {
-                    user : administrateur,
-                    status : "Administrateur",
-                    pwd : motdepasse
-                }
-                localStorage.setItem('sessionUser', JSON.stringify(session));
-                window.location.href = "../html/dashboardadmin.html"
+//     if (recupAdmin != null) {
+//         if (nomutilisateur === recupAdmin.user) {
+//             if (motdepasse === recupAdmin.pwd) {
+//                 let session = {
+//                     user : administrateur,
+//                     status : "Administrateur",
+//                     pwd : motdepasse
+//                 }
+//                 localStorage.setItem('sessionUser', JSON.stringify(session));
+//                 window.location.href = "../html/dashboardadmin.html"
                 
-            }
-            else{
-                alert("le mot de passe incorrect")
-            }
-        }
-        else{
-            alert("nom d'utilisatuer incorrect")
-           }
-    }
-})
+//             }
+//             else{
+//                 alert("le mot de passe incorrect")
+//             }
+//         }
+//         else{
+//             alert("nom d'utilisatuer incorrect")
+//            }
+//     }
+// })

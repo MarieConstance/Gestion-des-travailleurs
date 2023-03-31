@@ -246,9 +246,15 @@ table {
     margin-bottom: 3rem;
     background-color: #FCF5E5;
 }
-.iconmod{
-    width: 2rem;
-    height: 2rem;
+.ajouteradmin{
+    width: 10rem;
+    height: 3rem;
+    background-color:#328454 ;
+    color: white;
+    border: 1px solid #FDC127;
+    border-radius: 3rem;
+    margin-left: 50rem;
+    margin-top: 5rem;
 }
 .iconsup{
     width: 2rem;

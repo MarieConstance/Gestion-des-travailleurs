@@ -27,15 +27,16 @@ bouton.addEventListener('click', (e)=>{
     if (recuperation != null) {
         recuperation.push(ajoutemployer)
         localStorage.setItem('ajoutEmploye',JSON.stringify(recuperation));
+        window.location.href = "../html/dashboardadmin.html"
     
     }else{
         console.log("ok")
         recuperation = []
         recuperation.push(ajoutemployer)
         localStorage.setItem('ajoutEmploye',JSON.stringify(recuperation));
+        window.location.href = "../html/dashboardadmin.html"
     
     }    
-
 })
 
 
