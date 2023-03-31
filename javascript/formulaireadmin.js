@@ -25,12 +25,14 @@ bouton.addEventListener('click', (e)=>{
     if (recuperationAdmin != null) {
         recuperationAdmin.push(ajoutAdmin)
         localStorage.setItem('ajoutAdmin',JSON.stringify(recuperationAdmin));
+        window.location.href = "../html/superadmin.html"
     
     }else{
         console.log("ok")
         recuperationAdmin = []
         recuperationAdmin.push(ajoutAdmin)
         localStorage.setItem('ajoutAdmin',JSON.stringify(recuperationAdmin));
+        window.location.href = "../html/superadmin.html"
     
     }    
 
